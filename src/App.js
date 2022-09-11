@@ -6,13 +6,15 @@ import Plans from "./Plans";
 import Services from "./Services";
 function App() {
     return (
-        <div className=" h-full border-2 border-cyan-500">
+        <div className=" h-full bg-[#fafafa] min-w-[360px] max-w-[1024px] mx-auto ">
             <Hero />
-            <Benefits />
-            <Services />
-            <Plans />
-            <Contact />
-            <Footer />
+            <div className="  px-6">
+                <Benefits />
+                <Services />
+                <Plans />
+                <Contact />
+                <Footer />
+            </div>
         </div>
     );
 }

@@ -12,10 +12,33 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     height: 100%;
-    background-color: hotpink;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
+}
+
+h1 {
+    @apply text-[#14183E];
+}
+p {
+    @apply text-slate-400;
+}
+.input {
+    height: 50px;
+    border-radius: 9999px;
+}
+.input::placeholder {
+    padding-left: 20px;
+}
+
+.mobile-menu {
+    font-size: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu {
+        font-size: 40px;
+    }
 }
