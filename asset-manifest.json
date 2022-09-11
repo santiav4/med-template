@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/med-tamplate/static/css/main.65eddc9f.css",
+    "main.js": "/med-tamplate/static/js/main.668083e7.js",
+    "static/media/hero6.svg": "/med-tamplate/static/media/hero6.fcfc53b71f92cc726292.svg",
+    "static/media/hero4.jpg": "/med-tamplate/static/media/hero4.3af3f5c4e95320913a34.jpg",
+    "static/media/hero7.jpg": "/med-tamplate/static/media/hero7.ecc7a2a4537233b9857d.jpg",
+    "index.html": "/med-tamplate/index.html",
+    "main.65eddc9f.css.map": "/med-tamplate/static/css/main.65eddc9f.css.map",
+    "main.668083e7.js.map": "/med-tamplate/static/js/main.668083e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65eddc9f.css",
+    "static/js/main.668083e7.js"
+  ]
+}
