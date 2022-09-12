@@ -6,7 +6,7 @@ const Benefits = () => {
     return (
         <div className=" border-slate-300 my-6 bg-[#fafafa] md:flex">
             <div className="md:px-4 ">
-                <h1 className=" font-bold text-2xl pt-4 ">
+                <h1 className=" font-bold text-4xl pt-4 ">
                     Future is brigter when you're more prepared
                 </h1>
                 <p className="  pt-4 ">

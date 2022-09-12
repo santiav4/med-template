@@ -28,6 +28,11 @@ p {
 .input {
     height: 50px;
     border-radius: 9999px;
+    width: 50%;
+    max-width: 270px;
+}
+.input:-moz-placeholder {
+    padding-left: 20px;
 }
 .input::placeholder {
     padding-left: 20px;

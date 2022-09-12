@@ -6,10 +6,10 @@ const Services = () => {
     return (
         <div className=" text-[#14183E] ">
             <div className="w-[100%]">
-                <div className="bg-hero4 bg-contain bg-no-repeat border w-[100%] h-[300px] mb-4"></div>
+                <div className=" hidden bg-hero8 bg-center bg-no-repeat   h-[300px] mb-4"></div>
                 <div className=" flex flex-col items-center ">
                     <div className="w-[100%]">
-                        <h1 className="  text-3xl font-bold  pb-4">
+                        <h1 className="  text-4xl font-bold  pb-4">
                             We turn information into actionable insights
                         </h1>
                         <div className=" flex items-center my-6 font-semibold">
@@ -77,8 +77,8 @@ const Services = () => {
                         </a>
                     </div>
                 </div>
-                <div>
-                    <div className="flex flex-col bg-[#FFF9FB]">
+                <div className="">
+                    <div className="flex flex-col bg-[#FFF9FB] px-6 ">
                         <div className=" py-4">
                             <BsPencilSquare size={32} color={"pink"} />
                         </div>
@@ -101,7 +101,7 @@ const Services = () => {
                         </div>
                     </div>
                     {/* ======= */}
-                    <div className="flex flex-col py-4 bg-[#FFF9FB]">
+                    <div className="flex flex-col py-4 bg-[#FFF9FB] px-6">
                         <div className=" py-4">
                             <BsPencilSquare size={32} color={"pink"} />
                         </div>
@@ -124,7 +124,7 @@ const Services = () => {
                         </div>
                     </div>
                     {/* ============== */}
-                    <div className="flex flex-col bg-[#FFF9FB] py-4">
+                    <div className="flex flex-col bg-[#FFF9FB] py-4 px-6">
                         <div className="py-4">
                             <BsPencilSquare size={32} color={"pink"} />
                         </div>
