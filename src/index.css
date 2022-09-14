@@ -27,7 +27,7 @@ p {
 }
 .input {
     height: 50px;
-    border-radius: 9999px;
+    border-radius: 0.75rem;
     width: 50%;
     max-width: 270px;
 }

@@ -12,7 +12,7 @@ module.exports = {
                 hero5: "url('/src/images/hero3.svg')",
                 hero6: "url('/src/images/hero6.svg')",
                 hero7: "url('/src/images/hero7.jpg')",
-                hero8: "url('/src/images/hero8.svg')",
+                hero8: "url('/src/images/hero8.jpg')",
             },
         },
         backgroundSize: {

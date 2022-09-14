@@ -3,24 +3,24 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className=" ">
+        <div className=" mt-10">
             <div className=" hidden">
                 thigs with menus for tablet or desktop
             </div>
             <div className=" border-t py-4">
                 <div className="flex justify-center my-4">
                     <FaFacebookSquare
-                        className=" mr-4"
+                        className=" mr-4 hover:cursor-pointer"
                         size={32}
                         color="#81899A"
                     />
                     <FaInstagramSquare
-                        className=" mr-4"
+                        className=" mr-4 hover:cursor-pointer"
                         size={32}
                         color="#81899A"
                     />
                     <FaTwitterSquare
-                        className=" mr-4"
+                        className=" mr-4 hover:cursor-pointer"
                         size={32}
                         color="#81899A"
                     />

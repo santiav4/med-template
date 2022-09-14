@@ -7,7 +7,7 @@ const Hero = () => {
         //also the brands at the end
         <div className=" bg-hero7 md:bg-hero6 bg-right md:bg-cover md:h-[500px]  bg-no-repeat pb-6 md:px-4 border-b ">
             <Nav />
-            <div className=" w-[70%] md:h-[100%] px-6 md:flex md:flex-col md:justify-center text-white">
+            <div className=" w-[70%] md:h-[100%] px-6 md:flex md:flex-col md:justify-center lg:justify-start lg:mt-12 text-white">
                 <div className=" flex items-center text-xs md:text-lg mt-10 mb-2">
                     <BsCheckLg size={16} />
                     <p className=" ml-2 text-white font-semibold text-base">
@@ -20,7 +20,7 @@ const Hero = () => {
                 <p className="  mb-4 text-sm md:text-lg md:my-4 md:mb-10 text-white font-semibold">
                     Lorem ipsum dolor sit amet.
                 </p>
-                <button className="flex justify-center  items-center bg-[#26456D] hover:bg-[#01AEC6] transition ease-in-out delay-75 text-white w-[125px] h-[40px] rounded-3xl ">
+                <button className="flex justify-center  items-center bg-[#26456D] hover:bg-[#01AEC6] transition ease-in-out delay-75 text-white w-[125px] h-[40px] md:h-[60px] md:text-lg rounded-xl ">
                     <p className="font-semibold text-center text-white">
                         Get Started
                     </p>
